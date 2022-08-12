@@ -1,0 +1,18 @@
+// build a calculator using Anonymous function
+object HelloWorld {
+	def main(args: Array[String]): Unit = {
+	  var add=(x:Int,y:Int)=>x+y;
+	  var sub=(x:Int,y:Int)=>x-y;
+	  var mul=(x:Int,y:Int)=>x*y;
+	  var div=(x:Int,y:Int)=>x/y;
+	  var comp=(x:Int,y:Int,z:Int)=>(((x+y)/z)*x);
+var a=10;
+var b=5;
+var c=2;
+	println(add(a,b));
+		println(sub(a,b));
+			println(mul(a,b));
+			println(div(a,b));
+	  	println(comp(a,b,c));
+	}
+}
